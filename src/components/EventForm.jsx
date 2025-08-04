@@ -41,7 +41,7 @@ export default function EventForm() {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-md p-6">
+    <div className="bg-white shadow rounded-md p-6">
       <h2 className="text-2xl font-bold text-gray-800 mb-4">Добави събитие</h2>
       {error && <p className="text-red-500 mb-2">{error}</p>}
       {success && <p className="text-green-500 mb-2">Събитието е добавено успешно!</p>}

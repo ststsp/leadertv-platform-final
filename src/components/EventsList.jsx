@@ -14,7 +14,7 @@ export default function EventsList() {
     <div className="mb-10">
       <h1 className="text-3xl font-bold text-center mb-6 text-indigo-600">Календар на събития</h1>
       {events.map(event => (
-        <div key={event.id} className="bg-white shadow-md rounded-md p-6 mb-6 border border-gray-100">
+        <div key={event.id} className="bg-white shadow rounded-md p-6 mb-6 border border-gray-100">
           <h2 className="text-xl font-semibold text-gray-800">{event.title}</h2>
           <p className="text-sm text-gray-500 mb-2"><strong>Дата:</strong> {event.date}</p>
           <p className="text-sm text-gray-500 mb-2"><strong>Място:</strong> {event.location || '—'}</p>
